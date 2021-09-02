@@ -14,6 +14,6 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.1.0
       with:
-        server: ftp.rutvikvaghasiya.com
+        server: ftp://43.255.154.8
         username: nikunjnasit@codetrinity.com
         password: ${{ secrets.FTP_PASSWORD }}
