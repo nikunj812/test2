@@ -11,7 +11,7 @@ jobs:
       uses: actions/checkout@v2
       with : 
         fetch-depth: 2
-    - name: FTP-Deploy-Action
+       name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@4.1.0
       with:
         server: ftp://43.255.154.8
